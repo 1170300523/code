@@ -1,0 +1,30 @@
+package notebook;
+
+import java.util.ArrayList;
+
+import javax.print.attribute.Size2DSyntax;
+
+public class notebook {
+	private ArrayList<String> note = new ArrayList<String>();  //ÈÝÆ÷
+	private int  size = 0;
+	
+	
+	
+	public void addstr(String s)
+	{
+		note.add(s);
+	}
+	
+	public int getsize()
+	{
+		return note.size();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		notebook n = new notebook();
+		n.addstr("asdasdS");
+		n.addstr("safas");
+		System.out.println(n.getsize());
+	}
+
+}

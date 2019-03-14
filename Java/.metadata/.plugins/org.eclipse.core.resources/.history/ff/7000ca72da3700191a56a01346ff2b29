@@ -1,0 +1,22 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("dshgdfg");
+		Scanner in =  new Scanner(System.in);  //设置一个扫描变量,用于输入
+		int price;
+		int amount ;   //设置为一个常量,值不能被改变
+		System.out.println("请输入票面:");
+		amount = in.nextInt();
+		System.out.println("请输入价格:");
+		price = in.nextInt();
+		
+		System.out.println(amount - price);
+		
+	}
+
+}

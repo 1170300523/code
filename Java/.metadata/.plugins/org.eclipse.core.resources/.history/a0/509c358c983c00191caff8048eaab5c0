@@ -1,0 +1,131 @@
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import javax.security.auth.kerberos.KerberosKey;
+
+public class magic {
+	
+	public boolean isLegalMagicSquare(String fileName)
+	{
+		try {
+			BufferedReader in = new BufferedReader(  
+					new InputStreamReader( 
+							new FileInputStream(fileName)));
+				
+				String line;
+				try {
+					
+					if((line = in.readLine()) != null) {
+						String[] arr = line.split("\t");
+						int len = arr.length;
+						int[][] num =  new int[len][len];
+						
+						for(int k = 0;k<len;k++){
+							for(int i =0;i<len;i++)
+							{	try
+							{
+								num[k][i] = Integer.valueOf(arr[i]);
+							}
+							catch (Exception e) {
+								System.out.print("exist non-integer!\t");
+								return false;
+							}
+							}
+							if((line = in.readLine()) != null)
+							arr = line.split("\t");
+							if(arr.length != len)
+							{	try {
+								int ll;
+									int key;
+									for(int i =0;i<arr.length;i++)
+										 key = Integer.valueOf(arr[i]);
+								}
+								catch (Exception e) {
+									System.out.print("dont use \\t to div \t");
+									return false;
+								}
+									System.out.print("rows != columns ");
+									return false;
+							}
+						}
+						
+						int k0 =0,k=0,d1 =0,d2 =0;
+						
+						for(int i=0;i<len;i++)
+							k0 +=num[0][i];
+					
+						for(int i =1;i<len;i++)
+							{
+								for(int j =0;j<len;j++)
+									k += num[i][j];
+								//System.out.println(k);
+								if(k != k0)
+									return false;
+								k =0;
+								
+							}
+						
+						for(int i =0;i<len;i++) {
+								d1 += num[i][i];
+								d2 += num[len-1-i][i];
+						}
+						//System.out.println("d"+d1+' '+d2);
+						if(d1!=k0 ||d2!=k0)
+							return false;	
+					}
+					in.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} 
+		
+		return true;
+	}
+	
+	
+	public static boolean generateMagicSquare(int n) {
+		int magic[][] = new int[n][n];
+		int row = 0, col = n / 2, i, j, square = n * n;
+		for (i = 1; i <= square; i++) {
+		magic[row][col] = i;
+		if (i % n == 0)
+		row++;
+		else {
+		if (row == 0)
+		row = n - 1;
+		else
+		row--;
+		if (col == (n - 1))
+		col = 0;
+		else
+		col++;
+		}
+		}
+		for (i = 0; i < n; i++) {
+		for (j = 0; j < n; j++)
+		System.out.print(magic[i][j] + "\t");
+		System.out.println();
+		}
+		return true;
+		}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		magic judge = new magic();
+		 
+		System.out.println(judge.isLegalMagicSquare("1.txt"));
+		System.out.println(judge.isLegalMagicSquare("2.txt"));
+		System.out.println(judge.isLegalMagicSquare("3.txt"));
+		System.out.println(judge.isLegalMagicSquare("4.txt"));
+		System.out.println(judge.isLegalMagicSquare("5.txt"));
+		magic.generateMagicSquare(4);
+
+	}
+
+}

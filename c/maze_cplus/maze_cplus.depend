@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1544626841 source:c:\users\lee32\desktop\task\program\c\maze_cplus\main.cpp
+	<iostream>
+	<queue>
+	<stack>
+

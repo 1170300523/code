@@ -1,0 +1,44 @@
+package hello;
+
+public class javamore {
+	int total;
+	int balance;
+	int price;
+	
+	void showhello()
+	{
+		System.out.println("wlecome!");
+	}
+	
+	void showbalance()
+	{
+		System.out.println("balance is:"+balance);
+	}
+	
+	void insertmoney(int amount)
+	{
+		balance += amount;
+	}
+	
+	void getfood()
+	{
+		if(price < balance)
+		{
+			System.out.println("here you are");
+			balance -= price;
+		}
+		
+		else
+		{
+			System.out.println("money not enough!");
+			
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		javamore vm = new javamore();
+		vm.showbalance();
+
+	}
+
+}

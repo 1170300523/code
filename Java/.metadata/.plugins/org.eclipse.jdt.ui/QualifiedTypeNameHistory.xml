@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="hello.javamore"/>
+<fullyQualifiedTypeName name="clock.display"/>
+<fullyQualifiedTypeName name="clock.clock"/>
+<fullyQualifiedTypeName name="javax.print.attribute.Size2DSyntax"/>
+<fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.spi.CalendarNameProvider"/>
+<fullyQualifiedTypeName name="notebook.notebook"/>
+<fullyQualifiedTypeName name="cd.CD"/>
+<fullyQualifiedTypeName name="cd.database"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="javax.security.auth.kerberos.KerberosKey"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+<fullyQualifiedTypeName name="magic"/>
+<fullyQualifiedTypeName name="java.text.ParsePosition"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.LineListener"/>
+<fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.LeafElement"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="turtle.Point"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+</qualifiedTypeNameHistroy>

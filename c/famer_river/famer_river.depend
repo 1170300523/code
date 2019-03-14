@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544623152 source:c:\users\lee32\desktop\task\program\c\famer_river\main.c
+	<stdio.h>
+	<stdlib.h>
+

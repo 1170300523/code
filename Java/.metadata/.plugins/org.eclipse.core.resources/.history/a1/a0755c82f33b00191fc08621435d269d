@@ -1,0 +1,24 @@
+package cd;
+
+import java.util.ArrayList;
+
+public class database {
+	private ArrayList<CD> cdList = new ArrayList<CD>();
+	
+	public void add(CD cd)
+	{
+		cdList.add(cd);
+	}
+	public void list()
+	{
+		for(CD cd :cdList)
+		cd.print();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		database database  = new database();
+		database.add(new CD("fff", "alis", "good", 33,30));
+		database.list();
+	}
+
+}

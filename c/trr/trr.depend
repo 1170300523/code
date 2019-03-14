@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1544156501 source:c:\users\lee32\desktop\task\codeblocks\trr\main.c
+	<stdio.h>
+
+1543402559 source:c:\users\lee32\desktop\task\main(1).c
+	<stdio.h>
+	<limits.h>
+

@@ -1,0 +1,26 @@
+package cd;
+	
+public class CD {
+	private String title;
+	private String artist;
+	private String comment;
+	private int playtimes;
+	public CD(String title, String artist, String comment, int playtimes, int numoftracks) {
+		super();
+		this.title = title;
+		this.artist = artist;
+		this.comment = comment;
+		this.playtimes = playtimes;
+		this.numoftracks = numoftracks;
+	}
+
+
+	private int numoftracks;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

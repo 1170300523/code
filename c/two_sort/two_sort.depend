@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1544866331 source:c:\users\lee32\desktop\task\program\c\two_sort\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

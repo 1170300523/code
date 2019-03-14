@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544799100 source:c:\users\lee32\desktop\task\program\c\project_arrange\project_arrange.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1544799263 source:c:\users\lee32\desktop\task\program\c\island_100\island100.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

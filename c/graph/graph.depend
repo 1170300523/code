@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544018898 source:c:\users\lee32\desktop\task\codeblocks\graph\main.c
+	<stdio.h>
+	<stdlib.h>
+

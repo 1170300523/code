@@ -1,0 +1,81 @@
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import javax.security.auth.kerberos.KerberosKey;
+
+public class magic {
+	
+	public boolean isLegalMagicSquare(String fileName)
+	{
+		try {
+			BufferedReader in = new BufferedReader(  
+					new InputStreamReader( 
+							new FileInputStream(fileName)));
+				
+				String line;
+				try {
+					
+					if((line = in.readLine()) != null) {
+						String[] arr = line.split("\t");
+						int len = arr.length;
+						int[][] num =  new int[len][len];
+						
+						for(int k = 0;k<len;k++){
+							for(int i =0;i<len;i++)
+							{
+								num[k][i] = Integer.parseInt(arr[i]);
+							}
+							if((line = in.readLine()) != null)
+							arr = line.split("\t");
+						}
+						int k0 =0,k=0;
+						int d1 =0,d2 =0;
+						for(int i=0;i<len;i++)
+						{
+							k0 +=num[0][i];
+						}
+						
+						for(int i =1;i<len;i++)
+							{
+								for(int j =k0;j<len;j++)
+									k += num[i][j];
+								if(k != k0)
+									return false;
+								System.out.println(k);
+							}
+						
+						for(int i =0;i<len;i++) {
+								d1 += num[i][i];
+								d2 += num[len-1-i][i];
+						}
+						System.out.println("d"+d1+' '+d2);
+						if(d1!=k ||d2!=k)
+							return false;	
+					}
+					in.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} 
+		
+		
+		
+		return true;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println("ok");
+		magic judge = new magic();
+		judge.isLegalMagicSquare("1.txt")
+		System.out.println("k");
+
+	}
+
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545057007 source:c:\users\lee32\desktop\task\program\c\3_coloor_flower\main.c
+	<stdio.h>
+	<stdlib.h>
+

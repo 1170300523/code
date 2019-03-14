@@ -1,0 +1,41 @@
+package clock;
+
+public class display {
+	private int limit = 0;
+	private int value = 0;
+	
+	public display(int limit) {
+		// TODO Auto-generated constructor stub
+		this.limit = limit;
+		
+	}
+	
+	public void increase() {
+		value++;
+		if(value >limit)
+		{
+			value = 0;
+			limit++;
+		}
+		
+		
+	}
+	
+	
+	public int getvalue() {
+		
+		return value;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		display c = new display(60);
+		for(;;)
+		{
+			c.increase();
+			System.out.println(c.getvalue());
+			
+		}
+	}
+
+}

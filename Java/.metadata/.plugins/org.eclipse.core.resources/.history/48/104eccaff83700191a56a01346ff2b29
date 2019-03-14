@@ -1,0 +1,36 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("dshgdfg");		//printline会自动回车,但print不会
+		
+		Scanner in =  new Scanner(System.in);  //设置一个扫描变量,用于输入
+		
+		int price;
+		int amount ;   //设置为一个常量,值不能被改变
+		System.out.print("请输入票面:");
+		amount = in.nextInt();
+		System.out.print("请输入价格:");
+		price = in.nextInt();
+		
+		int a,b,c;
+		a = b = c =3;	//可以连续赋值
+		
+		double k = 1.233;
+		k = (int)(k);		//强制类型转换,记得两个括号 
+		
+		System.out.println(amount - price);
+		System.out.println(amount > price);
+		
+		if(amount > 50) 
+			System.out.println("it's ok");	//条件语句,和C一样
+		else 
+			System.out.println("no");
+		
+	}
+
+}
