@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"ratio",
+				"ratio_item\tstatement"
+			],
+			[
+				"rTIO",
+				"ratio_sum\tstatement"
+			],
+			[
+				"it",
+				"item_list\tstatement"
+			],
+			[
+				"l",
+				"lambda\tkeyword"
+			],
+			[
 				"t",
-				"table"
+				"text"
+			],
+			[
+				"shl",
+				"School_len\tstatement"
+			],
+			[
+				"schol",
+				"School_len\tstatement"
+			],
+			[
+				"sch",
+				"schooldata"
 			],
 			[
 				"do",
@@ -252,10 +280,6 @@
 				"input_info"
 			],
 			[
-				"l",
-				"l"
-			],
-			[
 				"mar",
 				"matrix_to_list"
 			],
@@ -490,43 +514,20 @@
 			[
 				"ar",
 				"arange"
-			],
-			[
-				"as",
-				"astype"
-			],
-			[
-				"int",
-				"int64"
-			],
-			[
-				"china",
-				"China"
-			],
-			[
-				"fal",
-				"flag\tstatement"
-			],
-			[
-				"cou",
-				"country_search\tfunction"
-			],
-			[
-				"pop",
-				"popDensity\tfunction"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "print(\"ell\")",
-			"file": "/C/Users/lee32/Desktop/1.py",
+			"contents": "print(\"heoll\")\nprint(\"heloo\")",
+			"file": "/C/Users/lee32/Desktop/Levenshtein.py",
 			"file_size": 14,
-			"file_write_time": 131971177982291339,
+			"file_write_time": 131986655883245770,
 			"settings":
 			{
-				"buffer_size": 12,
+				"buffer_size": 29,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -559,6 +560,22 @@
 		"selected_items":
 		[
 			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				":e",
+				":e - Revert"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
 				"Package Control: ",
 				"Package Control: Remove Package"
 			],
@@ -569,10 +586,6 @@
 			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"i",
-				"Package Control: Install Package"
 			],
 			[
 				"Snippet: ",
@@ -643,10 +656,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/lee32/Desktop/S2 CODE/github/bbk/bbk"
+	],
 	"file_history":
 	[
-		"/C/Users/lee32/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/lee32/Desktop/S2 CODE/github/bbk/bbk/000.md",
+		"/C/Users/lee32/Desktop/S2 CODE/github/bbk/bbk/001存在.md",
+		"/C/Users/lee32/Desktop/S2 CODE/github/bbk/bbk/今天开始写.txt",
+		"/C/Users/lee32/Desktop/S2 CODE/github/2017schooldata/2017schooldata/test.py",
+		"/C/Users/lee32/Desktop/creat_report/2017data.py",
+		"/C/Users/lee32/Downloads/TIM/creat_report/平均值项：生均阅览室座位数   0.13",
+		"/C/Users/lee32/Downloads/TIM/creat_report/2017data.py",
+		"/C/Users/lee32/Downloads/TIM/MobileFile/项目2.py",
 		"/C/Users/lee32/Desktop/1.py",
+		"/C/Users/lee32/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
 		"/C/Users/lee32/Desktop/d.py",
 		"/C/Users/lee32/Desktop/S2 CODE/local/python/test.py",
 		"/C/Users/lee32/Desktop/S2 CODE/book/book/README.md",
@@ -764,19 +789,11 @@
 		"/E/2018秋物理实验B绪论0907 - 石光.pptx",
 		"/C/Users/lee32/Desktop/download/网易云音乐/Cache/index.dat",
 		"/C/Users/lee32/Desktop/lab2/lab1-handout/README",
-		"/C/Users/lee32/Desktop/任务/pandaas_test",
-		"/E/Snake game with more codes/Snake game with more codes.py",
-		"/C/Users/lee32/Desktop/任务/snack game.py",
-		"/C/Users/lee32/Desktop/任务/snack .py",
-		"/C/Users/lee32/Desktop/任务/Snake game with more codes.py",
-		"/C/Users/lee32/AppData/Local/Temp/BNZ.5b55d0af1020018/Snake game with more codes.py",
-		"/C/Users/lee32/AppData/Local/Temp/BNZ.5b5548832d9fee8/Snake game with more codes.py",
-		"/C/Users/lee32/AppData/Local/Temp/BNZ.5b55488f2da2bc4/Snake game with more codes.py",
-		"/C/Users/lee32/Desktop/任务/tk"
+		"/C/Users/lee32/Desktop/任务/pandaas_test"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 41.3333333333
 	},
 	"find_in_files":
 	{
@@ -790,6 +807,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"天开始写",
+			"\\n",
+			"占比\\n",
+			" ",
+			"\\d+.\\d+%",
+			"平均值项：",
+			"计数项：.*",
+			"小学",
+			"2",
+			"1",
+			"0",
+			"\\n",
+			"平均值项：",
+			"\\n",
+			"平均值项：",
+			"\\n",
+			"平均值项：",
+			"\\n",
+			"平均值项：",
 			"\")",
 			"B竞赛规程     C",
 			"\\n",
@@ -813,6 +849,19 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
+			"\\n",
+			"",
+			"大学",
+			"9",
+			" ",
+			"",
+			" ",
+			"",
+			" ",
+			"",
+			" ",
+			"",
 			" ",
 			""
 		],
@@ -830,27 +879,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/lee32/Desktop/1.py",
+					"file": "/C/Users/lee32/Desktop/Levenshtein.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12,
+						"buffer_size": 29,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12,
-								12
+								29,
+								29
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
-							[
-							],
-							"SL.14.region_keys":
 							[
 							],
 							"auto_complete_triggers":
@@ -864,7 +910,8 @@
 									"selector": "source.python - string - constant.numeric"
 								}
 							],
-							"spell_check": true,
+							"auto_name": "",
+							"spell_check": false,
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -879,11 +926,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 41.3333333333
 	},
 	"input":
 	{
-		"height": 40.0
+		"height": 41.3333333333
 	},
 	"layout":
 	{
@@ -914,7 +961,7 @@
 	},
 	"output.exec":
 	{
-		"height": 35.3333333333
+		"height": 33.3333333333
 	},
 	"output.find_results":
 	{
@@ -924,7 +971,7 @@
 	"project": "test.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 74.6666666667
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -966,7 +1013,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 172.0,
+	"side_bar_width": 210.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
