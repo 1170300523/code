@@ -10,7 +10,12 @@
             "request": "launch",
             "program": "${file}",
             "console":"none"
+
+        
         },
+
+
+
         {
             "name": "Python: Remote Attach",
             "type": "python",
