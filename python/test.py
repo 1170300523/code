@@ -5,6 +5,6 @@ def t(n):
         return n*t(n-1)
 
 
-for i in range(6,2,-1):
+for i in range(6,0,-1):
     print(i)
 
