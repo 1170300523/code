@@ -1,8 +1,9 @@
 import numpy as np 
 
 
-
-def gauss(n,a,b,x):
+# 一、 Gauss 列主元消去法
+def gauss(n,a,b):
+    x = np.zeros((n + 1, 1))
     for k in range(1,n):
         a_pk = max(abs(a[k:,k]))
         p = list(a[:,k]).index(a_pk)
@@ -29,7 +30,9 @@ def gauss(n,a,b,x):
     return x[1:,:]
 
 
-def ob_gauss(n,a,b,x):
+# 二、显式相对 Gauss 列主元消去法
+def ob_gauss(n,a,b):
+    x = np.zeros((n + 1, 1))
     for k in range(1,n):
         for i in range(k,n+1):
             s = max(abs(a[i,k:]))
@@ -63,8 +66,9 @@ def ob_gauss(n,a,b,x):
     return x[1:,:]
 
 
-def pp_gauss(n,a,b,x):
-
+# 三、 隐式相对 Gauss 列主元消去法
+def pp_gauss(n,a,b):
+    x = np.zeros((n + 1, 1))
     for k in range(1,n):
         for i in range(k,n+1):
             s = max(abs(a[k:,k]))
@@ -110,11 +114,11 @@ def main():
     choose = int(input("\nChoose model: 1.gauss 2.pp_gauss 3. ob_gauss\n"))
     print("\nx = ")
     if choose ==1:
-        print(gauss(n,a,b,x))
+        print(gauss(n,a,b))
     elif choose == 2:
-        print(pp_gauss(n,a,b,x))
+        print(pp_gauss(n,a,b))
     else:
-        print(ob_gauss(n,a,b,x))
+        print(ob_gauss(n,a,b))
 
 if __name__ == '__main__':
     main()
