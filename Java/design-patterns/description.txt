@@ -1,0 +1,2 @@
+Source code:http://www.fluffycat.com/Java-Design-Patterns/
+Code for reference
