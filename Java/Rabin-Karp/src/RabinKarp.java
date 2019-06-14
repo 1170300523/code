@@ -1,9 +1,20 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class RabinKarp {
 
 
-    public  static  void  getRabinkarp(String pattner,String target){
-        int plenght = pattner.length();
-        int tlenght = target.length();
+//
+//    private RabinKarp(){
+//        System.out.println("new rk");
+//    }
+
+
+
+    public static void main(String[] args) {
+
+        RabinKarp k = new RabinKarp();
 
     }
 }
