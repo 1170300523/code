@@ -1,6 +1,16 @@
 package animal;
 
-public class Dog {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Dog implements   Animal{
+    static  void  bark(Animal animal){
+
+    }
+
+    static  void  bar(Dog dog){
+
+    }
     public static void main(String[] args) {
         Dog dodo = new Dog();
         System.out.println(Dog.class);
@@ -10,6 +20,7 @@ public class Dog {
         Integer a = Integer.valueOf(100);
         Integer b = Integer.valueOf(100);
         System.out.println(a == b);
-
+        bark(dodo);
+        List<? extends  Animal> animals = new ArrayList<Dog>();
     }
 }
