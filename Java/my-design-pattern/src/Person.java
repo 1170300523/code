@@ -1,6 +1,9 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.awt.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.*;
 import java.util.List;
 
 public class Person implements Comparable<Person>{
@@ -17,23 +20,19 @@ public class Person implements Comparable<Person>{
         return this.age - o.age;
     }
 
-    public static void main(String[] args) {
-        List<Person> list = new ArrayList<>();
-        list.add(new Person("kk",39));
-        list.add(new Person("ee",9));
-        list.add(new Person("gg",93));
-        list.add(new Person("ff",19));
 
-        Comparator<Person> comparator = new Comparator<Person>() {
-            @Override
-            public int compare(Person o1, Person o2) {
-                return o1.name.toLowerCase().compareTo(o2.name.toLowerCase());
-            }
-        };
 
-        Collections.sort(list,comparator);
-        for(Person i :list){
-            System.out.println(i.name);
+    static void exceptionTest() throws  MyException{
+       throw  new MyException("kkk");
+    }
+
+    public static void main(String[] args)  {
+
+
+        try {
+            exceptionTest();
+        } catch (MyException e) {
+            System.out.println("重新输入"+e.getMessage());
         }
 
 

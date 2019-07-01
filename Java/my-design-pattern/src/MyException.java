@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class MyException extends  Exception {
 
-public class MyException {
+    MyException(String info){
+        super(info);
+    }
 }
