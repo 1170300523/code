@@ -9,3 +9,4 @@ def getPic(num):
 	with open('m4/'+str(num)+'.jpg','wb') as f:
 		f.write(r.content)
 
+		

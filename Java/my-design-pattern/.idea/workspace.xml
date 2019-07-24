@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c921f486-f8ee-4b91-8f0c-064230cad2c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chinese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-design-pattern/Person$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-design-pattern/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-design-pattern/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-design-pattern/temple/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-design-pattern/temple/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python/8-queen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/8-queen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/crawler/demo02-JwtsPic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/crawler/demo02-JwtsPic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/crawler/demo03-getAllPic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/crawler/demo03-getAllPic.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -198,7 +191,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,15 +198,11 @@
               <item name="my-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-design-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my-design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,9 +291,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27890056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.283751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
