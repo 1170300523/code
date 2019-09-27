@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript">
+			var href_url = window.location.href;
+			var pos = href_url.indexOf("?")
+			var param = '';
+			if(pos > 0){
+					var param = '?'+href_url.substring(pos+1);
+			}
+			
+			if(/applewebkit.*mobile.*/i.test( navigator.userAgent.toLowerCase()) || /windows.*phone.*mobile.*/i.test( navigator.userAgent.toLowerCase()) || /msie.*touch.*wpdesktop/i.test( navigator.userAgent.toLowerCase()) || /android.*mobile.*/i.test( navigator.userAgent.toLowerCase())){
+					window.location.href = "/p/30247dd99271a6806206be0598a1cf9e/mobile_index.html"+param;
+			}else{
+					window.location.href = "/p/30247dd99271a6806206be0598a1cf9e/index.html"+param;
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

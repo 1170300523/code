@@ -3,7 +3,7 @@ import urllib.request
 import urllib.parse
 import json
 import requests
-from pprint import pprint
+
 
 def fanyi(word):
 	post_url = 'https://fanyi.baidu.com/sug'
